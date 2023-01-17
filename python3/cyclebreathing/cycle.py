@@ -46,7 +46,6 @@ class Cycle():
 
     VOWELS = [x for x in "αεηιυοω"]
     DIPTHONGS = [x for x in "αι ει ου ευ αυ ηυ οι".split(' ')] 
-    chars = [x for x in nfd(test)]
 
     # canonical order is letter < breathing < accent < iota subscript
 
