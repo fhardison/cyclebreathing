@@ -93,6 +93,6 @@ class Cycle():
     def test(self):
         val = '\n'.join(list(vim.current.buffer))
         # new = self.run_replacements(val)
-        new = fix_text(val)
+        new = self.fix_text(val)
         vim.current.buffer[:] = new.split('\n')
 
